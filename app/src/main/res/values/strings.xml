@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Android1_Lev_lesson_1</string>
+    <string name="first_text">Первое упражнение</string>
+    <string name="button_01">Кнопка 1</string>
+    <string name="Switch_01">Выключатель</string>
+    <string name="CheсkBox_01">Выбрать</string>
 </resources>
