@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Android1_Lev_lesson_1</string>
+    <string name="first_text">Первое упражнение</string>
+    <string name="button_01">Кнопка 1</string>
+    <string name="Switch_01">Выключатель</string>
+    <string name="CheсkBox_01">Выбрать</string>
+    <string name="text_main">Второе упражнение</string>
+    <string name="hint_text">Введите текст</string>
+    <string name="name">Введите имя</string>
+    <string name="phone">Введите телефон</string>
+    <string name="number">Введите номер</string>
+    <string name="password">Введите пароль</string>
+    <string name="email">Введите email</string>
+    <string name="date">Введите дату</string>
 </resources>
