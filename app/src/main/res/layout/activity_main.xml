@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,46 +15,46 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:text="@string/first_text"
-            android:textSize="24sp"
+            android:background="@color/beige"
             android:gravity="center"
-            android:backgroundTint="@color/beige"/>
+            android:text="@string/first_text"
+            android:textSize="24sp" />
 
         <CalendarView
             android:id="@+id/calendar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/teal_200"/>
+            android:background="@color/teal_200" />
 
         <EditText
             android:id="@+id/edittext01"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:hint="@android:string/paste"
-            android:backgroundTint="@color/beige"/>
+            android:background="@color/beige"
+            android:hint="@android:string/paste" />
 
         <Button
             android:id="@+id/button_01"
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/button_01"
             android:backgroundTint="@color/black"
-            android:textColor="@color/red"/>
+            android:text="@string/button_01"
+            android:textColor="@color/red" />
 
         <Switch
             android:id="@+id/switch_01"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            tools:ignore="UseSwitchCompatOrMaterialXml"
-            android:text="@string/Switch_01"/>
+            android:text="@string/Switch_01"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
 
         <CheckBox
             android:id="@+id/checkbox_01"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/CheсkBox_01"/>
+            android:text="@string/CheсkBox_01" />
 
         <ToggleButton
             android:id="@+id/togglebutton_01"
